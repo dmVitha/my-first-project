@@ -11,5 +11,7 @@ export class ShoppingEditComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  addFunc = (a:any,b:any)=>{
+      return a+b;
+  }
 }
